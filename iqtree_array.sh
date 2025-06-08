@@ -13,7 +13,7 @@
 gene=$(awk "NR==${SLURM_ARRAY_TASK_ID}" genelist.txt)
 
 #create output directory
-OUTDIR="/scratch/eab77806/ranunculales/iqtree"
+OUTDIR="/scratch/eab77806/jim_projects/ranunculales/iqtree"
 if [ ! -d $OUTDIR ]
 then
     mkdir -p $OUTDIR
