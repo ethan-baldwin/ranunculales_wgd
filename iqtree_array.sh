@@ -5,7 +5,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=4gb
-#SBATCH --time=1:00:00
+#SBATCH --time=5:00:00
 #SBATCH --array=1-2000 
 #SBATCH --output=/scratch/eab77806/logs/%x_%j.out
 #SBATCH --error=/scratch/eab77806/logs/%x_%j.err
