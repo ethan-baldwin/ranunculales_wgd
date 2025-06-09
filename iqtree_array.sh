@@ -3,8 +3,8 @@
 #SBATCH --partition=batch
 #SBATCH --mail-type=END,FAIL
 #SBATCH --ntasks=1
-#SBATCH --cpus-per-task=1
-#SBATCH --mem=4gb
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=10gb
 #SBATCH --time=12:00:00
 #SBATCH --array=1-2000 
 #SBATCH --output=/scratch/eab77806/logs/%x_%j.out
