@@ -21,7 +21,7 @@ cd $OUTDIR
 ml BioPerl/1.7.2-GCCcore-8.3.0
 
 # run PUG
-perl $HOME/PUG/PUG.pl --trees gene_trees --outgroup Genome_Vitis --species_tree Ranunculales_Species_tree.tre --debug
+perl $HOME/PUG/PUG.pl --trees gene_trees --outgroup Genome_Vitis --species_tree Ranunculales_Species_tree.tre --debug --tip_dupes
 
 # make environment for R script
 ml purge
