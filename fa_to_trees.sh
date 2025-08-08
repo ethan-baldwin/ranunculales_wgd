@@ -1,12 +1,12 @@
 #!/bin/bash
-#SBATCH --job-name=mafft
+#SBATCH --job-name=fa_to_trees
 #SBATCH --partition=batch
 #SBATCH --mail-type=END,FAIL
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=30gb
 #SBATCH --time=4:00:00
-#SBATCH --array=1-20 
+#SBATCH --array=1-5936 
 #SBATCH --output=/scratch/eab77806/logs/%x_%j.out
 #SBATCH --error=/scratch/eab77806/logs/%x_%j.err
 
