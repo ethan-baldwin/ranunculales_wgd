@@ -33,4 +33,4 @@ cd iqtree
 
 ml purge
 ml IQ-TREE/2.3.6-gompi-2023a
-iqtree2 -s alignments/$gene.fa -nt AUTO -bb 1000 -m MFP --prefix $gene --redo-tree
+iqtree2 -s alignments/$gene.aln -nt AUTO -bb 1000 -m MFP --prefix $gene --redo-tree
